@@ -6,7 +6,49 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Book_info book = new Book_info();
+
+            while (true)
+            {
+                book.first_intro();
+
+                book.menu_options();
+
+                Console.Write("Enter your option: ");
+                int option = Convert.ToInt32(Console.ReadLine());
+
+                switch (option)
+                {
+                    case 1:
+
+                        Console.Clear();
+                        Console.WriteLine("Add new book information");
+                        Console.WriteLine("");
+
+                        book.add_new_book_details();
+                        break;
+
+                    case 2:
+
+                        Console.Clear();
+                        Console.WriteLine("List all the books infromation");
+                        Console.WriteLine("");
+
+                        book.view_all_book_details();
+                        break;
+
+                    case 3:
+
+                        break;
+
+                    default:
+
+                        book.invalid_menu_option();
+                        book.any_key();
+                        break;
+                }
+            }
+
         }
     }
 }
