@@ -4,10 +4,12 @@ using System.Text;
 
 namespace IOT_1030_Final_Project_Sandeep_Kaur
 {
+    // derived class
     public class Book_info : Abstract_E_book
     {
         List<Book_options> book_info = new List<Book_options>();
 
+        // here i will derived add new book details method from abstract class
         public override void add_new_book_details()
         {
             Console.Write("Book ID: ");
@@ -28,6 +30,8 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
             book_info.Add(new Book_options(id, book_name, author_name, book_category, price, isbn, year_of_lunched));
 
         }
+
+        // here i will derived view all book details method from abstract class
         public override void view_all_book_details()
         {
             if (book_info.Count > 0)
@@ -52,6 +56,7 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
             any_key();
         }
 
+        // here i will derived first intro method from abstract class
         public override void first_intro()
         {
             Console.Clear();
@@ -61,14 +66,16 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
             Console.WriteLine("Please choose any option: ");
         }
 
+        // here i will derived menu options method from abstract class
         public override void menu_options()
         {
             Console.WriteLine("1 : Add new book information");
             Console.WriteLine("2 : List all the books infromation");
-            Console.WriteLine("3 : Exit");
+            Console.WriteLine("3 : Exit the program");
             Console.WriteLine("");
         }
 
+        // here i will derived any key method from abstract class
         public override void any_key()
         {
             Console.WriteLine("");
@@ -76,11 +83,13 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
             Console.ReadLine();
         }
 
+        // here i will derived invalid menu option method from abstract class
         public override void invalid_menu_option()
         {
             Console.WriteLine("Sorry! your option is not valid, please enter valid option (between 1 and 3)");
         }
 
+        // here i will derived no book details method from abstract class
         public override void no_book_details()
         {
             Console.WriteLine("Sorry you didn't enter any book details yet");
