@@ -4,6 +4,7 @@ using System.Text;
 
 namespace IOT_1030_Final_Project_Sandeep_Kaur
 {
+    // this is my base class
     public class Book_options
     {
         public int ID { get; set; }
@@ -14,6 +15,7 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
         public double ISBN_number { get; set; }
         public DateTime Year_of_Lunched { get; set; }
 
+        //this is the constructor 
         public Book_options(int id, string book_name, string author_name, string book_category, double price, double isbn, DateTime year_of_lunched)
         {
             ID = id;

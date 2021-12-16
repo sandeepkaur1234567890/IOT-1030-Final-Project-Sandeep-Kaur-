@@ -10,15 +10,20 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
 
             while (true)
             {
+                // here i will call first intro method from book info class file 
                 book.first_intro();
 
+                // here i will call menu option method from book info class file 
                 book.menu_options();
 
+                // enter option from user 
                 Console.Write("Enter your option: ");
                 int option = Convert.ToInt32(Console.ReadLine());
 
+                // here i will use switch-case 
                 switch (option)
                 {
+                    // if user enter "1" this case run 
                     case 1:
 
                         Console.WriteLine("");
@@ -30,6 +35,7 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
 
                         break;
 
+                    // if user enter "2" this case run
                     case 2:
 
                         Console.WriteLine("");
@@ -41,8 +47,11 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
 
                         break;
 
+                    // if user enter "3" this case run
                     case 3:
 
+                        // this function ise for exit code 
+                        Environment.Exit(1);
                         break;
 
                     default:
