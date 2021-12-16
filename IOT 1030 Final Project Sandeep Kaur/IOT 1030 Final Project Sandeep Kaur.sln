@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOT 1030 Final Project Sandeep Kaur", "IOT 1030 Final Project Sandeep Kaur.csproj", "{CFA65DBD-DC82-4078-A4E5-D5D242E60492}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA65DBD-DC82-4078-A4E5-D5D242E60492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA65DBD-DC82-4078-A4E5-D5D242E60492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA65DBD-DC82-4078-A4E5-D5D242E60492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA65DBD-DC82-4078-A4E5-D5D242E60492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {831659EA-D2D7-4FA5-884A-FB08F8EB5FD0}
+	EndGlobalSection
+EndGlobal
