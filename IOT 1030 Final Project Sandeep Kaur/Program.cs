@@ -21,20 +21,24 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
                 {
                     case 1:
 
-                        Console.Clear();
+                        Console.WriteLine("");
                         Console.WriteLine("Add new book information");
                         Console.WriteLine("");
 
                         book.add_new_book_details();
+                        Console.Clear();
+
                         break;
 
                     case 2:
 
-                        Console.Clear();
+                        Console.WriteLine("");
                         Console.WriteLine("List all the books infromation");
                         Console.WriteLine("");
 
                         book.view_all_book_details();
+                        Console.Clear();
+
                         break;
 
                     case 3:

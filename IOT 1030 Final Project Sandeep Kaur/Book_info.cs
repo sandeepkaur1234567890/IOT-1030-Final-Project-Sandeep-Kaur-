@@ -58,14 +58,14 @@ namespace IOT_1030_Final_Project_Sandeep_Kaur
             Console.WriteLine("Book Infomation Database ");
             Console.WriteLine("");
 
-            Console.Write("Please choose any option: ");
+            Console.WriteLine("Please choose any option: ");
         }
 
         public override void menu_options()
         {
-            Console.WriteLine("option 1 : Add new book information");
-            Console.WriteLine("Option 2 : List all the books infromation");
-            Console.WriteLine("Option 3 : Exit");
+            Console.WriteLine("1 : Add new book information");
+            Console.WriteLine("2 : List all the books infromation");
+            Console.WriteLine("3 : Exit");
             Console.WriteLine("");
         }
 
